@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto Commit",
+      "type": "shell",
+      "command": "git add . ; git commit -m 'Auto-sync from VS Code' ; git push",
+      "problemMatcher": [],
+      "runOptions": { "runOn": "folderOpen" },
+      "isBackground": true
+    }
+  ]
+}
